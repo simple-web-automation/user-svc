@@ -1,0 +1,6 @@
+# Google Cloud App Engine manifest
+runtime: go113
+instance_class: B1
+service: users
+manual_scaling:
+  instances: 1
